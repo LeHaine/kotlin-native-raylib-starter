@@ -37,7 +37,6 @@ gradle-app.setting
 .gradletasknamecache
 
 # local project files
-lib/
 .idea/
 proto/compiler/protoc-artifacts
 proto/compiler/tests
