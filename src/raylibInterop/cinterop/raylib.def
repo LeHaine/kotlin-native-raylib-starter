@@ -1,6 +1,6 @@
 headers = include/raylib.h
 compilerOpts = -I.
-linkerOpts= -lgdi32 -lwinmm
+linkerOpts.mingw = -lgdi32 -lwinmm
 staticLibraries = libraylib_static.a
 libraryPaths = lib
-package = raylib
+package = raylibr
